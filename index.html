@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 2</title>
+</head>
+<body>
+    
+
+<!-- Анатомия HTML тегов -->
+
+<!-- Теги с закрывающим элементом -->
+
+<!-- Тег открылся -->
+<!-- <имя тега> -->
+    <!-- Содержимое тега -->
+<!-- Тег закрылся -->
+<!-- </имя тега> -->
+
+<!-- Теги без закрывающего элемента -->
+<!-- Тег добавлен -->
+<!-- <имя тега> -->
+
+<!-- HTML атрибуты -->
+
+<!-- <имя тега имя атрибута='значение атрибута'> -->
+<!-- ... -->
+<!-- </имя тега> -->
+
+<!--===============Строительные теги================ -->
+
+<!-- DIV Тег без конкретного предназначения -->
+<!-- <div class="block" title="Я див"></div> -->
+
+<!-- HEADER MAIN FOOTER теги с конкретным предназначением -->
+
+<!-- HEADER верхняя часть сайта (шапка) блока-->
+<!-- <header></header>
+<header class="header"></header> -->
+
+<!-- FOOTER  нижняя часть сайта (подвал)-->
+<!-- <footer></footer>
+<footer class="footer"></footer> -->
+
+<!-- MAIN главная часть страницы -->
+<!-- <main></main>
+<main class="main"></main> -->
+
+<!-- NAV тег навигации -->
+<!-- <nav></nav>
+<nav class="nav"></nav> -->
+
+<!--============== Теги для контента==================== -->
+<!-- Теги заголовков блочные -->
+<!-- h1-h6 -->
+
+<!-- Теги маркировки (вспомогательные, строчные) -->
+<!-- span и mark(выделяет желтым) строчные теги будут выстраиваться в строку-->
+
+<!-- <div class="text">
+    Lorem <mark>ipsum</mark> dolor 
+</div>
+<div class="text">
+    Lorem <span>ipsum</span> dolor 
+</div> -->
+
+<!--======= Тег P параграф блочный ========-->
+<!-- <p>
+    Lorem ipsum, dolor sit amet consectetur 
+</p> -->
+
+<!-- Тег перевода строки -->
+<!-- <br> -->
+<!-- <p>
+    Lorem ipsum, dolor sit amet, <br> consectetur 
+</p> -->
+
+<!-- Списки UL OL LI (блочные)-->
+<!-- Маркированный список UL -->
+<!-- <ul>
+    <li>Пункт</li>
+    <li>Пункт
+        <ul>
+            <li>Подпункт</li>
+            <li>Подпункт</li>
+            <li>Подпункт</li>
+        </ul>
+    </li>
+    <li>Пункт</li>
+    <li>Пункт</li>
+    <li>Пункт</li>
+</ul> -->
+
+<!-- <ol>
+    <li>Номер</li>
+    <li>Номер
+        <ol>
+            <li>Номер</li>
+            <li>Номер</li>
+            <li>Номер</li>
+        </ol>
+    </li>
+    <li>Номер</li>
+</ol> -->
+
+
+<!-- A ссылка (строчный) -->
+<!-- 
+    href - адрес ссылки
+    target - где откроется адрес, значение _blank откроет ссылку в новом окне
+ -->
+
+<!-- <a href="https://www.youtube.com/watch?v=9aDEMi_GIZk" class="link">
+    Текст (анкор) ссылки 
+</a> -->
+
+<!-- <a href="https://ya.ru/" target="_blank" class="link">
+    Yandex
+</a> -->
+
+<!-- <p class="text">
+    Lorem <mark>ipsum</mark> dolor, sit amet <a href="">consectetur</a> adipisicing elit. Fuga ratione corrupti culpa debitis, distinctio dolores! Repellat, obcaecati officia dicta molestiae magni laudantium, adipisci consequatur beatae officiis dolorum recusandae, fugit dolorem?
+</p> -->
+
+<!-- IMG вставка картинки (блочно-строчный) -->
+<!-- src пусть к картинке 
+     alt альтернативный текст
+ -->
+
+<!-- <img width="100" src="img/герб.webp" alt="герб"> -->
+
+<!-- id="section" (поиск на странице через айди и ссылку) -->
+
+<!--============== Сборная солянка из основ ====================-->
+
+<header>Я верхушка сайта здесь про меня небольшая инфа бла бла бал</header>
+<main>
+<h1>Я самый главный заголовок</h1>
+<ul>
+    <div>Меню</div>
+    <li>Раздел</li>
+    <li>Раздел</li>
+    <li>Раздел
+        <ol>
+            <li><a href="#section1">Подраздел<a></li>
+            <li><a href="#section2">Подраздел<a ></li>
+            <li><a href="#section3">Подраздел<a ></li>
+        </ol>
+    </li>
+    <li>Раздел</li>
+    <li>Раздел</li>
+<div>
+    <p>
+        <img width="350" src="/img/Lorem_ipsum_3.jpg" alt="Лорем ипсум">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla numquam harum voluptatum ducimus. Laborum sapiente, <mark>vitae culpa dolor est non</mark> inventore perspiciatis error excepturi maxime quidem? Explicabo saepe accusamus recusandae.
+    </p>
+</div>
+<span>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, libero, <br><mark>temporibus asperiores pariatur iste deserunt cupiditate aperiam, fugit nulla architecto totam ducimus enim quibusdam. Doloribus, voluptas! Inventore a corrupti incidunt.</mark>
+</span>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsum, placeat quisquam iure sunt officia nihil corporis quam omnis in accusantium cum animi temporibus eum, possimus quo nostrum sequi sint?
+    <ol>
+        <li> <p id = "section1"></p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, delectus ipsam sapiente quibusdam nobis numquam necessitatibus eveniet iusto, in reiciendis eum sed ullam ab voluptates quia aut! Possimus, numquam eaque.</li></p>
+        <li> <p id='section2'></p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, delectus ipsam sapiente quibusdam nobis numquam necessitatibus eveniet iusto, in reiciendis eum sed ullam ab voluptates quia aut! Possimus, numquam eaque.</li></p>
+        <li> <p id='section3'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, delectus ipsam sapiente quibusdam nobis numquam necessitatibus eveniet iusto, in reiciendis eum sed ullam ab voluptates quia aut! Possimus, numquam eaque.</li></p>
+    </ol>
+</p>
+<p>
+    Подводя итоги..... больше нечего написать но очень многое хотелось сказать... полный бред
+</p>
+</main>
+<footer>
+        <p>пишите звоните сообщайте нам об ошибках замечаниях на этот номер 777777777777</p> </footer>
+
+</ul>
+</body>
+</html>
